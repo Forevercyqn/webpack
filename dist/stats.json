@@ -1,0 +1,4002 @@
+{
+  "hash": "108dd80ab770c7312031",
+  "version": "5.60.0",
+  "time": 5693,
+  "builtAt": 1636019244328,
+  "publicPath": "auto",
+  "outputPath": "E:\\项目\\练习\\webpack\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.108dd80a.css",
+      "js/eval-cheap-module-source-map.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "js/eval-cheap-module-source-map.js",
+      "size": 830062,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 830062
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": true
+    },
+    {
+      "type": "asset",
+      "name": "main.108dd80a.css",
+      "size": 544,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "fullhash": "108dd80a",
+        "size": 544
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 395,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 395
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 326291.82,
+      "sizes": {
+        "javascript": 324903.82,
+        "css/mini-extract": 542,
+        "runtime": 846
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.108dd80a.css",
+        "js/eval-cheap-module-source-map.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "81149e97fad34578ec3e",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 316609,
+          "sizes": {
+            "javascript": 316609
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "name": "./node_modules/jquery/dist/jquery.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "name": "./src/index.js",
+              "id": 102
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 957,
+          "issuerId": 102,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:61-67",
+              "moduleId": 957,
+              "resolvedModuleId": 957
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "19:94-108",
+              "moduleId": 957,
+              "resolvedModuleId": 957
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "27:4-18",
+              "moduleId": 957,
+              "resolvedModuleId": 957
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "module": "./node_modules/jquery/dist/jquery.js",
+              "moduleName": "./node_modules/jquery/dist/jquery.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+              "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "38:44-48",
+              "moduleId": 957,
+              "resolvedModuleId": 957
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "jquery",
+              "loc": "5:0-23",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "jquery",
+              "loc": "14:0-1",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "  ": [
+            "CommonJS bailout: this is used directly at 38:44-48",
+            "CommonJS bailout: module.exports is used directly at 19:94-108",
+            "CommonJS bailout: module.exports is used directly at 27:4-18",
+            "Statement (ExpressionStatement) with side effects in source code at 16:0-9463:3",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset",
+          "layer": null,
+          "size": 5426.820000000001,
+          "sizes": {
+            "javascript": 5426.820000000001
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset|E:\\项目\\练习\\webpack\\public\\logo.png",
+          "name": "./public/logo.png",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\public\\logo.png",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "name": "./src/index.js",
+              "id": 102
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 784,
+          "issuerId": 102,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../public/logo.png",
+              "loc": "3:0-38",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../public/logo.png",
+              "loc": "9:10-14",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for AssetGenerator"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1524,
+          "sizes": {
+            "javascript": 1524
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 102,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 7:0-15",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/jquery/dist/jquery.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./src/test.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./public/logo.png: Module Concatenation is not implemented for AssetGenerator"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1344,
+          "sizes": {
+            "javascript": 1344
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+          "name": "./src/test.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\test.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "name": "./src/index.js",
+              "id": 102
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 297,
+          "issuerId": 102,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./test",
+              "loc": "4:0-28",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./test",
+              "loc": "10:14-20",
+              "moduleId": 102,
+              "resolvedModuleId": 102
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+              "module": "./src/test.js",
+              "moduleName": "./src/test.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+              "resolvedModule": "./src/test.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "33:0-14",
+              "moduleId": 297,
+              "resolvedModuleId": 297
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 33:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 33:0-24",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "layer": null,
+          "size": 291,
+          "sizes": {
+            "css/mini-extract": 291
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\exact.less",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "issuerName": "./src/exact.less",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "name": "./src/index.js",
+              "id": 102
+            },
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "name": "./src/exact.less",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "module": "./src/exact.less",
+              "moduleName": "./src/exact.less",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "resolvedModule": "./src/exact.less",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "layer": null,
+          "size": 251,
+          "sizes": {
+            "css/mini-extract": 251
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\main.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "issuerName": "./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+              "name": "./src/index.js",
+              "id": 102
+            },
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "name": "./src/main.css",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "module": "./src/main.css",
+              "moduleName": "./src/main.css",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "resolvedModule": "./src/main.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 302,
+          "sizes": {
+            "runtime": 302
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 128,
+          "sizes": {
+            "runtime": 128
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1524,
+      "sizes": {
+        "javascript": 1524
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 102,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-15",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/jquery/dist/jquery.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./src/test.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./public/logo.png: Module Concatenation is not implemented for AssetGenerator"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "asset",
+      "layer": null,
+      "size": 5426.820000000001,
+      "sizes": {
+        "javascript": 5426.820000000001
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset|E:\\项目\\练习\\webpack\\public\\logo.png",
+      "name": "./public/logo.png",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\public\\logo.png",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 784,
+      "issuerId": 102,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../public/logo.png",
+          "loc": "3:0-38",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../public/logo.png",
+          "loc": "9:10-14",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for AssetGenerator"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1344,
+      "sizes": {
+        "javascript": 1344
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+      "name": "./src/test.js",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\test.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 297,
+      "issuerId": 102,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./test",
+          "loc": "4:0-28",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./test",
+          "loc": "10:14-20",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+          "module": "./src/test.js",
+          "moduleName": "./src/test.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\test.js",
+          "resolvedModule": "./src/test.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "33:0-14",
+          "moduleId": 297,
+          "resolvedModuleId": 297
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 33:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 33:0-24",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 316609,
+      "sizes": {
+        "javascript": 316609
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+      "name": "./node_modules/jquery/dist/jquery.js",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 957,
+      "issuerId": 102,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:61-67",
+          "moduleId": 957,
+          "resolvedModuleId": 957
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "19:94-108",
+          "moduleId": 957,
+          "resolvedModuleId": 957
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "27:4-18",
+          "moduleId": 957,
+          "resolvedModuleId": 957
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "module": "./node_modules/jquery/dist/jquery.js",
+          "moduleName": "./node_modules/jquery/dist/jquery.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\jquery\\dist\\jquery.js",
+          "resolvedModule": "./node_modules/jquery/dist/jquery.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "38:44-48",
+          "moduleId": 957,
+          "resolvedModuleId": 957
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "5:0-23",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        },
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "14:0-1",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 38:44-48",
+        "CommonJS bailout: module.exports is used directly at 19:94-108",
+        "CommonJS bailout: module.exports is used directly at 27:4-18",
+        "Statement (ExpressionStatement) with side effects in source code at 16:0-9463:3",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+      "name": "./src/exact.less",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\exact.less",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 102,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./exact.less",
+          "loc": "2:0-22",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\main.css",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 102,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "1:0-20",
+          "moduleId": 102,
+          "resolvedModuleId": 102
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "layer": null,
+      "size": 251,
+      "sizes": {
+        "css/mini-extract": 251
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\main.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        },
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "name": "./src/main.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "layer": null,
+      "size": 291,
+      "sizes": {
+        "css/mini-extract": 291
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+      "nameForCondition": "E:\\项目\\练习\\webpack\\src\\exact.less",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "optional": false,
+      "orphan": false,
+      "issuer": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+      "issuerName": "./src/exact.less",
+      "issuerPath": [
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\src\\index.js",
+          "name": "./src/index.js",
+          "id": 102
+        },
+        {
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "name": "./src/exact.less",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "module": "./src/exact.less",
+          "moduleName": "./src/exact.less",
+          "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "resolvedModule": "./src/exact.less",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 128,
+      "sizes": {
+        "runtime": 128
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.108dd80a.css",
+          "size": 544
+        },
+        {
+          "name": "js/eval-cheap-module-source-map.js",
+          "size": 830062
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 830606,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": true
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.108dd80a.css",
+          "size": 544
+        },
+        {
+          "name": "js/eval-cheap-module-source-map.js",
+          "size": 830062
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 830606,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": true
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/eval-cheap-module-source-map.js (811 KiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/eval-cheap-module-source-map.js (811 KiB)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\performance\\SizeLimitsPlugin.js:134:7\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:862:27\n    at E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:2818:7\n    at done (E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:716:33\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:143:16\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:61:14"
+    },
+    {
+      "message": "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (811 KiB)\n      main.108dd80a.css\n      js/eval-cheap-module-source-map.js\n",
+      "stack": "EntrypointsOverSizeLimitWarning: entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (811 KiB)\n      main.108dd80a.css\n      js/eval-cheap-module-source-map.js\n\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\performance\\SizeLimitsPlugin.js:139:7\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:862:27\n    at E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:2818:7\n    at done (E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:716:33\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:143:16\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:61:14"
+    },
+    {
+      "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
+      "stack": "NoAsyncChunksWarning: webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\performance\\SizeLimitsPlugin.js:153:21\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:862:27\n    at E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:2818:7\n    at done (E:\\项目\\练习\\webpack\\node_modules\\neo-async\\async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (E:\\项目\\练习\\webpack\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at E:\\项目\\练习\\webpack\\node_modules\\webpack\\lib\\Compiler.js:716:33\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:143:16\n    at E:\\项目\\练习\\webpack\\node_modules\\graceful-fs\\graceful-fs.js:61:14"
+    }
+  ],
+  "warningsCount": 3,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "f887758ed3017a03255a",
+      "version": "5.60.0",
+      "time": 108,
+      "builtAt": 1636019238802,
+      "publicPath": "",
+      "outputPath": "E:\\项目\\练习\\webpack\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1106,
+          "sizes": {
+            "javascript": 651,
+            "runtime": 455
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "6590010756fe210560d0",
+          "childrenByOrder": {},
+          "id": 563,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 574,
+              "sizes": {
+                "javascript": 574
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 614,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:88-102",
+                  "moduleId": 614,
+                  "resolvedModuleId": 614
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:88-102",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-88",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 163,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 325,
+              "sizes": {
+                "runtime": 325
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 163,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 574,
+          "sizes": {
+            "javascript": 574
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 614,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:88-102",
+              "moduleId": 614,
+              "resolvedModuleId": 614
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "E:\\项目\\练习\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!E:\\项目\\练习\\webpack\\index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:88-102",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-88",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 325,
+          "sizes": {
+            "runtime": 325
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+      "hash": "177c39f2506b54b06b51",
+      "version": "5.60.0",
+      "time": 3800,
+      "builtAt": 1636019243721,
+      "publicPath": "auto",
+      "outputPath": "E:\\项目\\练习\\webpack\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 5433,
+          "sizes": {
+            "javascript": 4436,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "90bc9f1b5f0bd43c15c3",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1422,
+              "sizes": {
+                "javascript": 1422
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\src\\exact.less",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 228,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 2326,
+              "sizes": {
+                "javascript": 2326
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "issuerPath": [
+                {
+                  "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "id": 228
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 743,
+              "issuerId": 228,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "7:0-14",
+                  "moduleId": 743,
+                  "resolvedModuleId": 743
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-89",
+                  "moduleId": 228,
+                  "resolvedModuleId": 228
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57",
+                  "moduleId": 228,
+                  "resolvedModuleId": 228
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 7:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 688,
+              "sizes": {
+                "javascript": 688
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "issuerPath": [
+                {
+                  "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "id": 228
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 795,
+              "issuerId": 228,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+                  "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "3:0-14",
+                  "moduleId": 795,
+                  "resolvedModuleId": 795
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "loc": "2:0-106",
+                  "moduleId": 228,
+                  "resolvedModuleId": 228
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "loc": "4:58-95",
+                  "moduleId": 228,
+                  "resolvedModuleId": 228
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 3:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1422,
+          "sizes": {
+            "javascript": 1422
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\exact.less",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 228,
+          "issuerId": null,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "loc": "mini-css-extract-plugin",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+            "ModuleConcatenation bailout: Module uses module.id"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 688,
+          "sizes": {
+            "javascript": 688
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "id": 228
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 795,
+          "issuerId": 228,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": 795,
+              "resolvedModuleId": 795
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "2:0-106",
+              "moduleId": 228,
+              "resolvedModuleId": 228
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "4:58-95",
+              "moduleId": 228,
+              "resolvedModuleId": 228
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2326,
+          "sizes": {
+            "javascript": 2326
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "id": 228
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 743,
+          "issuerId": 228,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "7:0-14",
+              "moduleId": 743,
+              "resolvedModuleId": 743
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": 228,
+              "resolvedModuleId": 228
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\exact.less",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/exact.less",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": 228,
+              "resolvedModuleId": 228
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 7:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 302,
+          "sizes": {
+            "runtime": 302
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+      "hash": "49d1031256e623d398ed",
+      "version": "5.60.0",
+      "time": 3795,
+      "builtAt": 1636019243711,
+      "publicPath": "auto",
+      "outputPath": "E:\\项目\\练习\\webpack\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 5148,
+          "sizes": {
+            "javascript": 4151,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "c04de564098961e979c5",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1137,
+              "sizes": {
+                "javascript": 1137
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\src\\main.css",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 450,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 2326,
+              "sizes": {
+                "javascript": 2326
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "id": 450
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 743,
+              "issuerId": 450,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "7:0-14",
+                  "moduleId": 743,
+                  "resolvedModuleId": 743
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-89",
+                  "moduleId": 450,
+                  "resolvedModuleId": 450
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57",
+                  "moduleId": 450,
+                  "resolvedModuleId": 450
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 7:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 688,
+              "sizes": {
+                "javascript": 688
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "issuerPath": [
+                {
+                  "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "id": 450
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 795,
+              "issuerId": 450,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+                  "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "3:0-14",
+                  "moduleId": 795,
+                  "resolvedModuleId": 795
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "loc": "2:0-106",
+                  "moduleId": 450,
+                  "resolvedModuleId": 450
+                },
+                {
+                  "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+                  "loc": "4:58-95",
+                  "moduleId": 450,
+                  "resolvedModuleId": 450
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 3:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1137,
+          "sizes": {
+            "javascript": 1137
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\src\\main.css",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 450,
+          "issuerId": null,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "loc": "mini-css-extract-plugin",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-97",
+            "ModuleConcatenation bailout: Module uses module.id"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 688,
+          "sizes": {
+            "javascript": 688
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "name": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "id": 450
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 795,
+          "issuerId": 450,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "module": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\sourceMaps.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "3:0-14",
+              "moduleId": 795,
+              "resolvedModuleId": 795
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "2:0-106",
+              "moduleId": 450,
+              "resolvedModuleId": 450
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/sourceMaps.js",
+              "loc": "4:58-95",
+              "moduleId": 450,
+              "resolvedModuleId": 450
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 3:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 3:0-22:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2326,
+          "sizes": {
+            "javascript": 2326
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "id": 450
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 743,
+          "issuerId": 450,
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[3].use[0]!E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "7:0-14",
+              "moduleId": 743,
+              "resolvedModuleId": 743
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": 450,
+              "resolvedModuleId": 450
+            },
+            {
+              "moduleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "E:\\项目\\练习\\webpack\\node_modules\\css-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\postcss-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\node_modules\\less-loader\\dist\\cjs.js!E:\\项目\\练习\\webpack\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": 450,
+              "resolvedModuleId": 450
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 7:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 302,
+          "sizes": {
+            "runtime": 302
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
